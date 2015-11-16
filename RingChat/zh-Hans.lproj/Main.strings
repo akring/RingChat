@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "Loaded by FirstViewController"; ObjectID = "A5M-7J-77L"; */
+"A5M-7J-77L.text" = "Loaded by FirstViewController";
+
+/* Class = "UILabel"; text = "First View"; ObjectID = "KQZ-1w-vlD"; */
+"KQZ-1w-vlD.text" = "First View";
+
+/* Class = "UILabel"; text = "Akring"; ObjectID = "NPq-q6-qOV"; */
+"NPq-q6-qOV.text" = "Akring";
+
+/* Class = "UILabel"; text = "This is a test text!"; ObjectID = "Zhf-cT-xdn"; */
+"Zhf-cT-xdn.text" = "This is a test text!";
+
+/* Class = "UITabBarItem"; title = "First"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "First";
+
+/* Class = "UITabBarItem"; title = "Second"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "Second";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "qoQ-d3-ae2"; */
+"qoQ-d3-ae2.title" = "Root View Controller";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "yUa-H3-FvK"; */
+"yUa-H3-FvK.title" = "Item";

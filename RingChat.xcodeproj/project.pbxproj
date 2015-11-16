@@ -8,22 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		DDBE3BEE1BF9ABD000AC3C99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE3BED1BF9ABD000AC3C99 /* AppDelegate.swift */; };
-		DDBE3BF01BF9ABD000AC3C99 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE3BEF1BF9ABD000AC3C99 /* FirstViewController.swift */; };
-		DDBE3BF21BF9ABD000AC3C99 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE3BF11BF9ABD000AC3C99 /* SecondViewController.swift */; };
 		DDBE3BF51BF9ABD000AC3C99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDBE3BF31BF9ABD000AC3C99 /* Main.storyboard */; };
 		DDBE3BF71BF9ABD000AC3C99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBE3BF61BF9ABD000AC3C99 /* Assets.xcassets */; };
 		DDBE3BFA1BF9ABD000AC3C99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDBE3BF81BF9ABD000AC3C99 /* LaunchScreen.storyboard */; };
+		DDBE3C041BF9B32A00AC3C99 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE3C031BF9B32A00AC3C99 /* MainVC.swift */; };
+		DDBE3C121BF9B9E500AC3C99 /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE3C111BF9B9E500AC3C99 /* MessageVC.swift */; };
+		DDBE3C141BF9DE5D00AC3C99 /* MessageListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE3C131BF9DE5D00AC3C99 /* MessageListVC.swift */; };
+		DDD77B251BF9E25B000D5CE2 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD77B241BF9E25B000D5CE2 /* MessageCell.swift */; };
+		EE513F94E717D036DED495B8 /* Pods_RingChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B7AC75850533398454D33B /* Pods_RingChat.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF3480D178EF4BA00248703D /* Pods-RingChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RingChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-RingChat/Pods-RingChat.release.xcconfig"; sourceTree = "<group>"; };
+		B5B7AC75850533398454D33B /* Pods_RingChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RingChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D673371844D8CEFEF8B04D6A /* Pods-RingChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RingChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RingChat/Pods-RingChat.debug.xcconfig"; sourceTree = "<group>"; };
 		DDBE3BEA1BF9ABD000AC3C99 /* RingChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDBE3BED1BF9ABD000AC3C99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DDBE3BEF1BF9ABD000AC3C99 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		DDBE3BF11BF9ABD000AC3C99 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		DDBE3BF41BF9ABD000AC3C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDBE3BF61BF9ABD000AC3C99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDBE3BF91BF9ABD000AC3C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDBE3BFB1BF9ABD000AC3C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDBE3C031BF9B32A00AC3C99 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		DDBE3C081BF9B51300AC3C99 /* RingChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RingChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		DDBE3C111BF9B9E500AC3C99 /* MessageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
+		DDBE3C131BF9DE5D00AC3C99 /* MessageListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageListVC.swift; path = ../MessageVC/MessageListVC.swift; sourceTree = "<group>"; };
+		DDD77B241BF9E25B000D5CE2 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		DDD77B261BF9E516000D5CE2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		DDD77B271BF9E516000D5CE2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +42,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE513F94E717D036DED495B8 /* Pods_RingChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C069285296651476B39B417D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D673371844D8CEFEF8B04D6A /* Pods-RingChat.debug.xcconfig */,
+				AF3480D178EF4BA00248703D /* Pods-RingChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DDBE3BE11BF9ABD000AC3C99 = {
 			isa = PBXGroup;
 			children = (
 				DDBE3BEC1BF9ABD000AC3C99 /* RingChat */,
 				DDBE3BEB1BF9ABD000AC3C99 /* Products */,
+				C069285296651476B39B417D /* Pods */,
+				F9C0FC15F4611F3C886C13C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,74 @@
 		DDBE3BEC1BF9ABD000AC3C99 /* RingChat */ = {
 			isa = PBXGroup;
 			children = (
+				DDBE3C011BF9ABE300AC3C99 /* Model */,
+				DDBE3C051BF9B39700AC3C99 /* View */,
+				DDBE3C021BF9ABFC00AC3C99 /* Controller */,
+				DDBE3C061BF9B43200AC3C99 /* Support */,
 				DDBE3BED1BF9ABD000AC3C99 /* AppDelegate.swift */,
-				DDBE3BEF1BF9ABD000AC3C99 /* FirstViewController.swift */,
-				DDBE3BF11BF9ABD000AC3C99 /* SecondViewController.swift */,
-				DDBE3BF31BF9ABD000AC3C99 /* Main.storyboard */,
 				DDBE3BF61BF9ABD000AC3C99 /* Assets.xcassets */,
-				DDBE3BF81BF9ABD000AC3C99 /* LaunchScreen.storyboard */,
 				DDBE3BFB1BF9ABD000AC3C99 /* Info.plist */,
 			);
 			path = RingChat;
+			sourceTree = "<group>";
+		};
+		DDBE3C011BF9ABE300AC3C99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDBE3C021BF9ABFC00AC3C99 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DDD77B231BF9E203000D5CE2 /* MessageList */,
+				DDBE3C0C1BF9B8CB00AC3C99 /* MessageVC */,
+				DDBE3C031BF9B32A00AC3C99 /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DDBE3C051BF9B39700AC3C99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDBE3BF31BF9ABD000AC3C99 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDBE3C061BF9B43200AC3C99 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				DDBE3BF81BF9ABD000AC3C99 /* LaunchScreen.storyboard */,
+				DDBE3C081BF9B51300AC3C99 /* RingChat-Bridging-Header.h */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		DDBE3C0C1BF9B8CB00AC3C99 /* MessageVC */ = {
+			isa = PBXGroup;
+			children = (
+				DDBE3C111BF9B9E500AC3C99 /* MessageVC.swift */,
+			);
+			path = MessageVC;
+			sourceTree = "<group>";
+		};
+		DDD77B231BF9E203000D5CE2 /* MessageList */ = {
+			isa = PBXGroup;
+			children = (
+				DDBE3C131BF9DE5D00AC3C99 /* MessageListVC.swift */,
+				DDD77B241BF9E25B000D5CE2 /* MessageCell.swift */,
+			);
+			path = MessageList;
+			sourceTree = "<group>";
+		};
+		F9C0FC15F4611F3C886C13C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5B7AC75850533398454D33B /* Pods_RingChat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDBE3BFE1BF9ABD000AC3C99 /* Build configuration list for PBXNativeTarget "RingChat" */;
 			buildPhases = (
+				06C3FEB95A0AF3469A53C752 /* Check Pods Manifest.lock */,
 				DDBE3BE61BF9ABD000AC3C99 /* Sources */,
 				DDBE3BE71BF9ABD000AC3C99 /* Frameworks */,
 				DDBE3BE81BF9ABD000AC3C99 /* Resources */,
+				2B4CDA611FAB7AD2303024FB /* Embed Pods Frameworks */,
+				CC215BD96F2409BC3F8D3257 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,14 +218,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06C3FEB95A0AF3469A53C752 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2B4CDA611FAB7AD2303024FB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RingChat/Pods-RingChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC215BD96F2409BC3F8D3257 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RingChat/Pods-RingChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DDBE3BE61BF9ABD000AC3C99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDBE3BF21BF9ABD000AC3C99 /* SecondViewController.swift in Sources */,
+				DDBE3C141BF9DE5D00AC3C99 /* MessageListVC.swift in Sources */,
+				DDD77B251BF9E25B000D5CE2 /* MessageCell.swift in Sources */,
 				DDBE3BEE1BF9ABD000AC3C99 /* AppDelegate.swift in Sources */,
-				DDBE3BF01BF9ABD000AC3C99 /* FirstViewController.swift in Sources */,
+				DDBE3C121BF9B9E500AC3C99 /* MessageVC.swift in Sources */,
+				DDBE3C041BF9B32A00AC3C99 /* MainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,16 +286,20 @@
 			isa = PBXVariantGroup;
 			children = (
 				DDBE3BF41BF9ABD000AC3C99 /* Base */,
+				DDD77B261BF9E516000D5CE2 /* zh-Hans */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		DDBE3BF81BF9ABD000AC3C99 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DDBE3BF91BF9ABD000AC3C99 /* Base */,
+				DDD77B271BF9E516000D5CE2 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -249,23 +388,32 @@
 		};
 		DDBE3BFF1BF9ABD000AC3C99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D673371844D8CEFEF8B04D6A /* Pods-RingChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = RingChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akring.RingChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RingChat/Support/RingChat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		DDBE3C001BF9ABD000AC3C99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF3480D178EF4BA00248703D /* Pods-RingChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = RingChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akring.RingChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RingChat/Support/RingChat-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -288,6 +436,7 @@
 				DDBE3C001BF9ABD000AC3C99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
