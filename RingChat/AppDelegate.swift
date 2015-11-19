@@ -7,6 +7,11 @@
 //
 
 import UIKit
+import ChameleonFramework
+
+
+var versionString:String = "2.0.0"/**< 版本号 */
+let globalTintColor:UIColor = UIColor.flatMintColor() /**< 全局颜色 */
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,8 +20,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
-        //初始化AVOS
-        AVOSCloud.setApplicationId("y3XqhMWdIYKXTJjlFfhuVY0Q", clientKey: "7w7QietRIf38lTPdLwKejleF")
+        Chameleon.setGlobalThemeUsingPrimaryColor(FlatMint(), withContentStyle: UIContentStyle.Contrast)
+        //圆角处理
+        self.window?.layer.masksToBounds = true
+        self.window?.layer.cornerRadius = 5.0
+        
+        
+        
+        
+        //获取版本号
+        Utils.getVersion()
         
         return true
     }

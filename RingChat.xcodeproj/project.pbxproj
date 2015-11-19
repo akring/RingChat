@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD02C1601BFAB83A0030AFBC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD02C15F1BFAB83A0030AFBC /* BaseViewController.swift */; };
+		DD47AF2F1BFD5C1D00EAC1ED /* NetworkKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD47AF2E1BFD5C1D00EAC1ED /* NetworkKit.swift */; };
+		DD47AF311BFD5CF900EAC1ED /* Reach.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD47AF301BFD5CF900EAC1ED /* Reach.swift */; };
+		DD5A97221BFDA4A300F8027C /* DGElasticPullToRefreshConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A971D1BFDA4A300F8027C /* DGElasticPullToRefreshConstants.swift */; };
+		DD5A97231BFDA4A300F8027C /* DGElasticPullToRefreshExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A971E1BFDA4A300F8027C /* DGElasticPullToRefreshExtensions.swift */; };
+		DD5A97241BFDA4A300F8027C /* DGElasticPullToRefreshLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A971F1BFDA4A300F8027C /* DGElasticPullToRefreshLoadingView.swift */; };
+		DD5A97251BFDA4A300F8027C /* DGElasticPullToRefreshLoadingViewCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A97201BFDA4A300F8027C /* DGElasticPullToRefreshLoadingViewCircle.swift */; };
+		DD5A97261BFDA4A300F8027C /* DGElasticPullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A97211BFDA4A300F8027C /* DGElasticPullToRefreshView.swift */; };
+		DD5A97351BFDB7B100F8027C /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A972A1BFDB7B100F8027C /* RAMBounceAnimation.swift */; };
+		DD5A97361BFDB7B100F8027C /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A972C1BFDB7B100F8027C /* RAMFrameItemAnimation.swift */; };
+		DD5A97371BFDB7B100F8027C /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A972E1BFDB7B100F8027C /* RAMFumeAnimation.swift */; };
+		DD5A97381BFDB7B100F8027C /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A97301BFDB7B100F8027C /* RAMRotationAnimation.swift */; };
+		DD5A97391BFDB7B100F8027C /* RAMTransitionItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A97321BFDB7B100F8027C /* RAMTransitionItemAnimation.swift */; };
+		DD5A973A1BFDB7B100F8027C /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A97331BFDB7B100F8027C /* RAMAnimatedTabBarController.swift */; };
+		DD5A973B1BFDB7B100F8027C /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A97341BFDB7B100F8027C /* RAMItemAnimationProtocol.swift */; };
+		DD5A973D1BFDBC5100F8027C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5A973C1BFDBC5100F8027C /* Assets.xcassets */; };
+		DD78A0681BFC146B002615F8 /* LaunchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78A0661BFC146B002615F8 /* LaunchVC.swift */; };
+		DD78A06C1BFC630C002615F8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78A06B1BFC630C002615F8 /* Utils.swift */; };
+		DD78A0701BFC6EA9002615F8 /* GlobalDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78A06F1BFC6EA9002615F8 /* GlobalDefinition.swift */; };
+		DD78A0721BFC7294002615F8 /* ArticleListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78A0711BFC7294002615F8 /* ArticleListModel.swift */; };
+		DD78A0751BFC8354002615F8 /* StoryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78A0741BFC8354002615F8 /* StoryListCell.swift */; };
+		DD78D7051BFCD6C700C73A19 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78D7041BFCD6C700C73A19 /* CacheManager.swift */; };
 		DDBE3BEE1BF9ABD000AC3C99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE3BED1BF9ABD000AC3C99 /* AppDelegate.swift */; };
 		DDBE3BF51BF9ABD000AC3C99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDBE3BF31BF9ABD000AC3C99 /* Main.storyboard */; };
-		DDBE3BF71BF9ABD000AC3C99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBE3BF61BF9ABD000AC3C99 /* Assets.xcassets */; };
 		DDBE3BFA1BF9ABD000AC3C99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDBE3BF81BF9ABD000AC3C99 /* LaunchScreen.storyboard */; };
 		DDBE3C041BF9B32A00AC3C99 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE3C031BF9B32A00AC3C99 /* MainVC.swift */; };
-		DDBE3C121BF9B9E500AC3C99 /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE3C111BF9B9E500AC3C99 /* MessageVC.swift */; };
-		DDBE3C141BF9DE5D00AC3C99 /* MessageListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE3C131BF9DE5D00AC3C99 /* MessageListVC.swift */; };
-		DDD77B251BF9E25B000D5CE2 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD77B241BF9E25B000D5CE2 /* MessageCell.swift */; };
 		EE513F94E717D036DED495B8 /* Pods_RingChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B7AC75850533398454D33B /* Pods_RingChat.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -22,17 +40,35 @@
 		AF3480D178EF4BA00248703D /* Pods-RingChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RingChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-RingChat/Pods-RingChat.release.xcconfig"; sourceTree = "<group>"; };
 		B5B7AC75850533398454D33B /* Pods_RingChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RingChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D673371844D8CEFEF8B04D6A /* Pods-RingChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RingChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RingChat/Pods-RingChat.debug.xcconfig"; sourceTree = "<group>"; };
+		DD02C15F1BFAB83A0030AFBC /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DD47AF2E1BFD5C1D00EAC1ED /* NetworkKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkKit.swift; sourceTree = "<group>"; };
+		DD47AF301BFD5CF900EAC1ED /* Reach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reach.swift; sourceTree = "<group>"; };
+		DD5A971D1BFDA4A300F8027C /* DGElasticPullToRefreshConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshConstants.swift; sourceTree = "<group>"; };
+		DD5A971E1BFDA4A300F8027C /* DGElasticPullToRefreshExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshExtensions.swift; sourceTree = "<group>"; };
+		DD5A971F1BFDA4A300F8027C /* DGElasticPullToRefreshLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshLoadingView.swift; sourceTree = "<group>"; };
+		DD5A97201BFDA4A300F8027C /* DGElasticPullToRefreshLoadingViewCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshLoadingViewCircle.swift; sourceTree = "<group>"; };
+		DD5A97211BFDA4A300F8027C /* DGElasticPullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshView.swift; sourceTree = "<group>"; };
+		DD5A972A1BFDB7B100F8027C /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		DD5A972C1BFDB7B100F8027C /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
+		DD5A972E1BFDB7B100F8027C /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFumeAnimation.swift; sourceTree = "<group>"; };
+		DD5A97301BFDB7B100F8027C /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMRotationAnimation.swift; sourceTree = "<group>"; };
+		DD5A97321BFDB7B100F8027C /* RAMTransitionItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMTransitionItemAnimation.swift; sourceTree = "<group>"; };
+		DD5A97331BFDB7B100F8027C /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		DD5A97341BFDB7B100F8027C /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		DD5A973C1BFDBC5100F8027C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = RingChat/Assets.xcassets; sourceTree = "<group>"; };
+		DD78A0661BFC146B002615F8 /* LaunchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchVC.swift; sourceTree = "<group>"; };
+		DD78A06B1BFC630C002615F8 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		DD78A06F1BFC6EA9002615F8 /* GlobalDefinition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalDefinition.swift; sourceTree = "<group>"; };
+		DD78A0711BFC7294002615F8 /* ArticleListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListModel.swift; sourceTree = "<group>"; };
+		DD78A0741BFC8354002615F8 /* StoryListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryListCell.swift; sourceTree = "<group>"; };
+		DD78D7041BFCD6C700C73A19 /* CacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		DDBE3BEA1BF9ABD000AC3C99 /* RingChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDBE3BED1BF9ABD000AC3C99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDBE3BF41BF9ABD000AC3C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DDBE3BF61BF9ABD000AC3C99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDBE3BF91BF9ABD000AC3C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDBE3BFB1BF9ABD000AC3C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDBE3C031BF9B32A00AC3C99 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		DDBE3C031BF9B32A00AC3C99 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainVC.swift; path = ../MainVC.swift; sourceTree = "<group>"; };
 		DDBE3C081BF9B51300AC3C99 /* RingChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RingChat-Bridging-Header.h"; sourceTree = "<group>"; };
-		DDBE3C111BF9B9E500AC3C99 /* MessageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
-		DDBE3C131BF9DE5D00AC3C99 /* MessageListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageListVC.swift; path = ../MessageVC/MessageListVC.swift; sourceTree = "<group>"; };
-		DDD77B241BF9E25B000D5CE2 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		DDD77B261BF9E516000D5CE2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		DDD77B271BF9E516000D5CE2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,10 +94,148 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DD02C15D1BFAB75B0030AFBC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DD47AF2D1BFD5BFD00EAC1ED /* Network */,
+				DD78A06A1BFC62F1002615F8 /* Utils */,
+				DD02C15E1BFAB7740030AFBC /* Base */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DD02C15E1BFAB7740030AFBC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DD02C15F1BFAB83A0030AFBC /* BaseViewController.swift */,
+			);
+			name = Base;
+			path = Control;
+			sourceTree = "<group>";
+		};
+		DD47AF2D1BFD5BFD00EAC1ED /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DD47AF301BFD5CF900EAC1ED /* Reach.swift */,
+				DD47AF2E1BFD5C1D00EAC1ED /* NetworkKit.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DD5A971B1BFDA3FF00F8027C /* OpenSource */ = {
+			isa = PBXGroup;
+			children = (
+				DD5A97271BFDB7B100F8027C /* RAMAnimatedTabBarController */,
+				DD5A971C1BFDA4A300F8027C /* DGElasticPullToRefresh */,
+			);
+			path = OpenSource;
+			sourceTree = "<group>";
+		};
+		DD5A971C1BFDA4A300F8027C /* DGElasticPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				DD5A971D1BFDA4A300F8027C /* DGElasticPullToRefreshConstants.swift */,
+				DD5A971E1BFDA4A300F8027C /* DGElasticPullToRefreshExtensions.swift */,
+				DD5A971F1BFDA4A300F8027C /* DGElasticPullToRefreshLoadingView.swift */,
+				DD5A97201BFDA4A300F8027C /* DGElasticPullToRefreshLoadingViewCircle.swift */,
+				DD5A97211BFDA4A300F8027C /* DGElasticPullToRefreshView.swift */,
+			);
+			path = DGElasticPullToRefresh;
+			sourceTree = "<group>";
+		};
+		DD5A97271BFDB7B100F8027C /* RAMAnimatedTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				DD5A97281BFDB7B100F8027C /* Animations */,
+				DD5A97331BFDB7B100F8027C /* RAMAnimatedTabBarController.swift */,
+				DD5A97341BFDB7B100F8027C /* RAMItemAnimationProtocol.swift */,
+			);
+			path = RAMAnimatedTabBarController;
+			sourceTree = "<group>";
+		};
+		DD5A97281BFDB7B100F8027C /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				DD5A97291BFDB7B100F8027C /* BounceAnimation */,
+				DD5A972B1BFDB7B100F8027C /* FrameAnimation */,
+				DD5A972D1BFDB7B100F8027C /* FumeAnimation */,
+				DD5A972F1BFDB7B100F8027C /* RotationAnimation */,
+				DD5A97311BFDB7B100F8027C /* TransitionAniamtions */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		DD5A97291BFDB7B100F8027C /* BounceAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				DD5A972A1BFDB7B100F8027C /* RAMBounceAnimation.swift */,
+			);
+			path = BounceAnimation;
+			sourceTree = "<group>";
+		};
+		DD5A972B1BFDB7B100F8027C /* FrameAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				DD5A972C1BFDB7B100F8027C /* RAMFrameItemAnimation.swift */,
+			);
+			path = FrameAnimation;
+			sourceTree = "<group>";
+		};
+		DD5A972D1BFDB7B100F8027C /* FumeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				DD5A972E1BFDB7B100F8027C /* RAMFumeAnimation.swift */,
+			);
+			path = FumeAnimation;
+			sourceTree = "<group>";
+		};
+		DD5A972F1BFDB7B100F8027C /* RotationAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				DD5A97301BFDB7B100F8027C /* RAMRotationAnimation.swift */,
+			);
+			path = RotationAnimation;
+			sourceTree = "<group>";
+		};
+		DD5A97311BFDB7B100F8027C /* TransitionAniamtions */ = {
+			isa = PBXGroup;
+			children = (
+				DD5A97321BFDB7B100F8027C /* RAMTransitionItemAnimation.swift */,
+			);
+			path = TransitionAniamtions;
+			sourceTree = "<group>";
+		};
+		DD78A0651BFC13F1002615F8 /* LaunchVC */ = {
+			isa = PBXGroup;
+			children = (
+				DD78A0661BFC146B002615F8 /* LaunchVC.swift */,
+			);
+			path = LaunchVC;
+			sourceTree = "<group>";
+		};
+		DD78A06A1BFC62F1002615F8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DD78A06B1BFC630C002615F8 /* Utils.swift */,
+				DD78D7041BFCD6C700C73A19 /* CacheManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DD78A0731BFC8317002615F8 /* StoryListVC */ = {
+			isa = PBXGroup;
+			children = (
+				DDBE3C031BF9B32A00AC3C99 /* MainVC.swift */,
+				DD78A0741BFC8354002615F8 /* StoryListCell.swift */,
+			);
+			path = StoryListVC;
+			sourceTree = "<group>";
+		};
 		DDBE3BE11BF9ABD000AC3C99 = {
 			isa = PBXGroup;
 			children = (
 				DDBE3BEC1BF9ABD000AC3C99 /* RingChat */,
+				DD5A973C1BFDBC5100F8027C /* Assets.xcassets */,
 				DDBE3BEB1BF9ABD000AC3C99 /* Products */,
 				C069285296651476B39B417D /* Pods */,
 				F9C0FC15F4611F3C886C13C5 /* Frameworks */,
@@ -79,12 +253,13 @@
 		DDBE3BEC1BF9ABD000AC3C99 /* RingChat */ = {
 			isa = PBXGroup;
 			children = (
+				DD02C15D1BFAB75B0030AFBC /* Common */,
 				DDBE3C011BF9ABE300AC3C99 /* Model */,
 				DDBE3C051BF9B39700AC3C99 /* View */,
 				DDBE3C021BF9ABFC00AC3C99 /* Controller */,
 				DDBE3C061BF9B43200AC3C99 /* Support */,
+				DD5A971B1BFDA3FF00F8027C /* OpenSource */,
 				DDBE3BED1BF9ABD000AC3C99 /* AppDelegate.swift */,
-				DDBE3BF61BF9ABD000AC3C99 /* Assets.xcassets */,
 				DDBE3BFB1BF9ABD000AC3C99 /* Info.plist */,
 			);
 			path = RingChat;
@@ -93,6 +268,7 @@
 		DDBE3C011BF9ABE300AC3C99 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DD78A0711BFC7294002615F8 /* ArticleListModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -100,9 +276,8 @@
 		DDBE3C021BF9ABFC00AC3C99 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DDD77B231BF9E203000D5CE2 /* MessageList */,
-				DDBE3C0C1BF9B8CB00AC3C99 /* MessageVC */,
-				DDBE3C031BF9B32A00AC3C99 /* MainVC.swift */,
+				DD78A0651BFC13F1002615F8 /* LaunchVC */,
+				DD78A0731BFC8317002615F8 /* StoryListVC */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -120,25 +295,9 @@
 			children = (
 				DDBE3BF81BF9ABD000AC3C99 /* LaunchScreen.storyboard */,
 				DDBE3C081BF9B51300AC3C99 /* RingChat-Bridging-Header.h */,
+				DD78A06F1BFC6EA9002615F8 /* GlobalDefinition.swift */,
 			);
 			path = Support;
-			sourceTree = "<group>";
-		};
-		DDBE3C0C1BF9B8CB00AC3C99 /* MessageVC */ = {
-			isa = PBXGroup;
-			children = (
-				DDBE3C111BF9B9E500AC3C99 /* MessageVC.swift */,
-			);
-			path = MessageVC;
-			sourceTree = "<group>";
-		};
-		DDD77B231BF9E203000D5CE2 /* MessageList */ = {
-			isa = PBXGroup;
-			children = (
-				DDBE3C131BF9DE5D00AC3C99 /* MessageListVC.swift */,
-				DDD77B241BF9E25B000D5CE2 /* MessageCell.swift */,
-			);
-			path = MessageList;
 			sourceTree = "<group>";
 		};
 		F9C0FC15F4611F3C886C13C5 /* Frameworks */ = {
@@ -211,7 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDBE3BFA1BF9ABD000AC3C99 /* LaunchScreen.storyboard in Resources */,
-				DDBE3BF71BF9ABD000AC3C99 /* Assets.xcassets in Resources */,
+				DD5A973D1BFDBC5100F8027C /* Assets.xcassets in Resources */,
 				DDBE3BF51BF9ABD000AC3C99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,11 +430,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDBE3C141BF9DE5D00AC3C99 /* MessageListVC.swift in Sources */,
-				DDD77B251BF9E25B000D5CE2 /* MessageCell.swift in Sources */,
+				DD78A06C1BFC630C002615F8 /* Utils.swift in Sources */,
+				DD78D7051BFCD6C700C73A19 /* CacheManager.swift in Sources */,
 				DDBE3BEE1BF9ABD000AC3C99 /* AppDelegate.swift in Sources */,
-				DDBE3C121BF9B9E500AC3C99 /* MessageVC.swift in Sources */,
+				DD78A0681BFC146B002615F8 /* LaunchVC.swift in Sources */,
+				DD5A97251BFDA4A300F8027C /* DGElasticPullToRefreshLoadingViewCircle.swift in Sources */,
+				DD78A0751BFC8354002615F8 /* StoryListCell.swift in Sources */,
+				DD5A97231BFDA4A300F8027C /* DGElasticPullToRefreshExtensions.swift in Sources */,
+				DD5A97371BFDB7B100F8027C /* RAMFumeAnimation.swift in Sources */,
+				DD78A0701BFC6EA9002615F8 /* GlobalDefinition.swift in Sources */,
+				DD5A97381BFDB7B100F8027C /* RAMRotationAnimation.swift in Sources */,
+				DD5A97391BFDB7B100F8027C /* RAMTransitionItemAnimation.swift in Sources */,
 				DDBE3C041BF9B32A00AC3C99 /* MainVC.swift in Sources */,
+				DD5A97241BFDA4A300F8027C /* DGElasticPullToRefreshLoadingView.swift in Sources */,
+				DD5A973A1BFDB7B100F8027C /* RAMAnimatedTabBarController.swift in Sources */,
+				DD5A97261BFDA4A300F8027C /* DGElasticPullToRefreshView.swift in Sources */,
+				DD47AF2F1BFD5C1D00EAC1ED /* NetworkKit.swift in Sources */,
+				DD5A97221BFDA4A300F8027C /* DGElasticPullToRefreshConstants.swift in Sources */,
+				DD02C1601BFAB83A0030AFBC /* BaseViewController.swift in Sources */,
+				DD47AF311BFD5CF900EAC1ED /* Reach.swift in Sources */,
+				DD5A97351BFDB7B100F8027C /* RAMBounceAnimation.swift in Sources */,
+				DD5A97361BFDB7B100F8027C /* RAMFrameItemAnimation.swift in Sources */,
+				DD5A973B1BFDB7B100F8027C /* RAMItemAnimationProtocol.swift in Sources */,
+				DD78A0721BFC7294002615F8 /* ArticleListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -379,7 +556,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -392,8 +569,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = RingChat/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akring.RingChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -408,8 +587,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = RingChat/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akring.RingChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";

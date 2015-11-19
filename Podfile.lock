@@ -1,0 +1,52 @@
+PODS:
+  - Alamofire (3.1.2)
+  - ChameleonFramework/Default (2.0.4)
+  - ChameleonFramework/Swift (2.0.4):
+    - ChameleonFramework/Default
+  - DKNightVersion (0.9.0):
+    - DKNightVersion/Core (= 0.9.0)
+    - DKNightVersion/Generator (= 0.9.0)
+    - DKNightVersion/Helper (= 0.9.0)
+    - DKNightVersion/UIKit (= 0.9.0)
+  - DKNightVersion/Core (0.9.0)
+  - DKNightVersion/Generator (0.9.0)
+  - DKNightVersion/Helper (0.9.0)
+  - DKNightVersion/UIKit (0.9.0):
+    - DKNightVersion/Core
+  - Kingfisher (1.8.1)
+  - ModelRocket (1.2.1)
+  - PermissionScope (1.0.1)
+  - Spring (1.0.3)
+  - SwiftDate (1.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - ChameleonFramework/Swift
+  - DKNightVersion (~> 0.9.0)
+  - Kingfisher (~> 1.8)
+  - ModelRocket
+  - PermissionScope
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift2`)
+  - SwiftDate
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift2
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 18d5c7b74489de8044e34767f856d1e574f0820e
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: 7c16ca65f3c7e681fd925fd7f2dec7747ff96855
+  ChameleonFramework: 5abe69b1f2a6cc79c3c435fcd9d3d855748225ee
+  DKNightVersion: 405d8328b982f751df09d5d6847931a536e472ee
+  Kingfisher: a20680f220c52620284fae571805a179809985c2
+  ModelRocket: 71a037ed1f96d69745861a35c40ed1a55cdf5d94
+  PermissionScope: 9767066cedefd211d90a8c4f92f6f1a987085ee8
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftDate: 49ebd4efb5f82336cfc2b1d8a6622f47d4b17370
+
+COCOAPODS: 0.38.2

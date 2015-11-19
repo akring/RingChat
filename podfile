@@ -1,0 +1,22 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+use_frameworks!
+
+target 'RingChat' do
+
+#权限设置
+pod 'PermissionScope'
+#Spring动画框架
+pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift2'
+#Model层
+pod 'ModelRocket'
+#颜色
+pod 'ChameleonFramework/Swift'
+#Utils
+pod 'SwiftDate'
+pod 'Alamofire', '~> 3.0'
+pod 'Kingfisher', '~> 1.8'
+
+end
+
