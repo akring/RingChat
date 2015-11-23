@@ -9,11 +9,12 @@
 import UIKit
 import Alamofire
 
-class MainVC: BaseViewController ,UITableViewDataSource,UITableViewDelegate{
+class MainVC: UIViewController ,UITableViewDataSource,UITableViewDelegate{
     
     var tempOffset:CGFloat = 0
     @IBOutlet var tableView:UITableView!
     var dataSource:NSMutableArray = NSMutableArray()
+    var enableAnimation:Bool = true
     
     // MARK: - 生命周期
     override func viewDidLoad() {
@@ -32,7 +33,11 @@ class MainVC: BaseViewController ,UITableViewDataSource,UITableViewDelegate{
     
     override func viewDidAppear(animated: Bool) {
         
-        navigationController?.hidesBarsOnSwipe = true
+//        navigationController?.hidesBarsOnSwipe = true
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        enableAnimation = false
     }
     
     deinit {
@@ -114,13 +119,23 @@ class MainVC: BaseViewController ,UITableViewDataSource,UITableViewDelegate{
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        
+        let vc = StoryDetailVC()
+        vc.model = dataSource.objectAtIndex(indexPath.row) as! ArticleListModel
+        vc.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     // MARK: - 缩放效果
     
     func scrollViewWillBeginDragging(scrollView: UIScrollView) {
+        enableAnimation = true
         let offset = scrollView.contentOffset.y
         tempOffset = offset
+    }
+    
+    func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
+        enableAnimation = false
     }
     
     func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
@@ -128,6 +143,11 @@ class MainVC: BaseViewController ,UITableViewDataSource,UITableViewDelegate{
         let offset = tableView.contentOffset.y
         
         let myCell:StoryListCell = cell as! StoryListCell
+        
+        if enableAnimation == false{
+            
+            return
+        }
         
         if offset > tempOffset{
             

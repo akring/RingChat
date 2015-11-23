@@ -15,13 +15,6 @@
 		DD5A97241BFDA4A300F8027C /* DGElasticPullToRefreshLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A971F1BFDA4A300F8027C /* DGElasticPullToRefreshLoadingView.swift */; };
 		DD5A97251BFDA4A300F8027C /* DGElasticPullToRefreshLoadingViewCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A97201BFDA4A300F8027C /* DGElasticPullToRefreshLoadingViewCircle.swift */; };
 		DD5A97261BFDA4A300F8027C /* DGElasticPullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A97211BFDA4A300F8027C /* DGElasticPullToRefreshView.swift */; };
-		DD5A97351BFDB7B100F8027C /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A972A1BFDB7B100F8027C /* RAMBounceAnimation.swift */; };
-		DD5A97361BFDB7B100F8027C /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A972C1BFDB7B100F8027C /* RAMFrameItemAnimation.swift */; };
-		DD5A97371BFDB7B100F8027C /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A972E1BFDB7B100F8027C /* RAMFumeAnimation.swift */; };
-		DD5A97381BFDB7B100F8027C /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A97301BFDB7B100F8027C /* RAMRotationAnimation.swift */; };
-		DD5A97391BFDB7B100F8027C /* RAMTransitionItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A97321BFDB7B100F8027C /* RAMTransitionItemAnimation.swift */; };
-		DD5A973A1BFDB7B100F8027C /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A97331BFDB7B100F8027C /* RAMAnimatedTabBarController.swift */; };
-		DD5A973B1BFDB7B100F8027C /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A97341BFDB7B100F8027C /* RAMItemAnimationProtocol.swift */; };
 		DD5A973D1BFDBC5100F8027C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5A973C1BFDBC5100F8027C /* Assets.xcassets */; };
 		DD78A0681BFC146B002615F8 /* LaunchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78A0661BFC146B002615F8 /* LaunchVC.swift */; };
 		DD78A06C1BFC630C002615F8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78A06B1BFC630C002615F8 /* Utils.swift */; };
@@ -33,6 +26,10 @@
 		DDBE3BF51BF9ABD000AC3C99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDBE3BF31BF9ABD000AC3C99 /* Main.storyboard */; };
 		DDBE3BFA1BF9ABD000AC3C99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDBE3BF81BF9ABD000AC3C99 /* LaunchScreen.storyboard */; };
 		DDBE3C041BF9B32A00AC3C99 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE3C031BF9B32A00AC3C99 /* MainVC.swift */; };
+		DDCFE95A1C03126B00222212 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCFE9591C03126B00222212 /* Reveal.framework */; };
+		DDE817181C02E7A700CADF77 /* StoryDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE817161C02E7A700CADF77 /* StoryDetailVC.swift */; };
+		DDE817191C02E7A700CADF77 /* StoryDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE817171C02E7A700CADF77 /* StoryDetailVC.xib */; };
+		DDE8171B1C02E89E00CADF77 /* StoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8171A1C02E89E00CADF77 /* StoryModel.swift */; };
 		EE513F94E717D036DED495B8 /* Pods_RingChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B7AC75850533398454D33B /* Pods_RingChat.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -48,13 +45,6 @@
 		DD5A971F1BFDA4A300F8027C /* DGElasticPullToRefreshLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshLoadingView.swift; sourceTree = "<group>"; };
 		DD5A97201BFDA4A300F8027C /* DGElasticPullToRefreshLoadingViewCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshLoadingViewCircle.swift; sourceTree = "<group>"; };
 		DD5A97211BFDA4A300F8027C /* DGElasticPullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshView.swift; sourceTree = "<group>"; };
-		DD5A972A1BFDB7B100F8027C /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBounceAnimation.swift; sourceTree = "<group>"; };
-		DD5A972C1BFDB7B100F8027C /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
-		DD5A972E1BFDB7B100F8027C /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFumeAnimation.swift; sourceTree = "<group>"; };
-		DD5A97301BFDB7B100F8027C /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMRotationAnimation.swift; sourceTree = "<group>"; };
-		DD5A97321BFDB7B100F8027C /* RAMTransitionItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMTransitionItemAnimation.swift; sourceTree = "<group>"; };
-		DD5A97331BFDB7B100F8027C /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
-		DD5A97341BFDB7B100F8027C /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
 		DD5A973C1BFDBC5100F8027C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = RingChat/Assets.xcassets; sourceTree = "<group>"; };
 		DD78A0661BFC146B002615F8 /* LaunchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchVC.swift; sourceTree = "<group>"; };
 		DD78A06B1BFC630C002615F8 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
@@ -69,8 +59,12 @@
 		DDBE3BFB1BF9ABD000AC3C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDBE3C031BF9B32A00AC3C99 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainVC.swift; path = ../MainVC.swift; sourceTree = "<group>"; };
 		DDBE3C081BF9B51300AC3C99 /* RingChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RingChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		DDCFE9591C03126B00222212 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 		DDD77B261BF9E516000D5CE2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		DDD77B271BF9E516000D5CE2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		DDE817161C02E7A700CADF77 /* StoryDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryDetailVC.swift; sourceTree = "<group>"; };
+		DDE817171C02E7A700CADF77 /* StoryDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryDetailVC.xib; sourceTree = "<group>"; };
+		DDE8171A1C02E89E00CADF77 /* StoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE513F94E717D036DED495B8 /* Pods_RingChat.framework in Frameworks */,
+				DDCFE95A1C03126B00222212 /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +120,6 @@
 		DD5A971B1BFDA3FF00F8027C /* OpenSource */ = {
 			isa = PBXGroup;
 			children = (
-				DD5A97271BFDB7B100F8027C /* RAMAnimatedTabBarController */,
 				DD5A971C1BFDA4A300F8027C /* DGElasticPullToRefresh */,
 			);
 			path = OpenSource;
@@ -141,68 +135,6 @@
 				DD5A97211BFDA4A300F8027C /* DGElasticPullToRefreshView.swift */,
 			);
 			path = DGElasticPullToRefresh;
-			sourceTree = "<group>";
-		};
-		DD5A97271BFDB7B100F8027C /* RAMAnimatedTabBarController */ = {
-			isa = PBXGroup;
-			children = (
-				DD5A97281BFDB7B100F8027C /* Animations */,
-				DD5A97331BFDB7B100F8027C /* RAMAnimatedTabBarController.swift */,
-				DD5A97341BFDB7B100F8027C /* RAMItemAnimationProtocol.swift */,
-			);
-			path = RAMAnimatedTabBarController;
-			sourceTree = "<group>";
-		};
-		DD5A97281BFDB7B100F8027C /* Animations */ = {
-			isa = PBXGroup;
-			children = (
-				DD5A97291BFDB7B100F8027C /* BounceAnimation */,
-				DD5A972B1BFDB7B100F8027C /* FrameAnimation */,
-				DD5A972D1BFDB7B100F8027C /* FumeAnimation */,
-				DD5A972F1BFDB7B100F8027C /* RotationAnimation */,
-				DD5A97311BFDB7B100F8027C /* TransitionAniamtions */,
-			);
-			path = Animations;
-			sourceTree = "<group>";
-		};
-		DD5A97291BFDB7B100F8027C /* BounceAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				DD5A972A1BFDB7B100F8027C /* RAMBounceAnimation.swift */,
-			);
-			path = BounceAnimation;
-			sourceTree = "<group>";
-		};
-		DD5A972B1BFDB7B100F8027C /* FrameAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				DD5A972C1BFDB7B100F8027C /* RAMFrameItemAnimation.swift */,
-			);
-			path = FrameAnimation;
-			sourceTree = "<group>";
-		};
-		DD5A972D1BFDB7B100F8027C /* FumeAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				DD5A972E1BFDB7B100F8027C /* RAMFumeAnimation.swift */,
-			);
-			path = FumeAnimation;
-			sourceTree = "<group>";
-		};
-		DD5A972F1BFDB7B100F8027C /* RotationAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				DD5A97301BFDB7B100F8027C /* RAMRotationAnimation.swift */,
-			);
-			path = RotationAnimation;
-			sourceTree = "<group>";
-		};
-		DD5A97311BFDB7B100F8027C /* TransitionAniamtions */ = {
-			isa = PBXGroup;
-			children = (
-				DD5A97321BFDB7B100F8027C /* RAMTransitionItemAnimation.swift */,
-			);
-			path = TransitionAniamtions;
 			sourceTree = "<group>";
 		};
 		DD78A0651BFC13F1002615F8 /* LaunchVC */ = {
@@ -269,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				DD78A0711BFC7294002615F8 /* ArticleListModel.swift */,
+				DDE8171A1C02E89E00CADF77 /* StoryModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -278,6 +211,7 @@
 			children = (
 				DD78A0651BFC13F1002615F8 /* LaunchVC */,
 				DD78A0731BFC8317002615F8 /* StoryListVC */,
+				DDE817151C02E76A00CADF77 /* StoryDetail */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -300,9 +234,19 @@
 			path = Support;
 			sourceTree = "<group>";
 		};
+		DDE817151C02E76A00CADF77 /* StoryDetail */ = {
+			isa = PBXGroup;
+			children = (
+				DDE817161C02E7A700CADF77 /* StoryDetailVC.swift */,
+				DDE817171C02E7A700CADF77 /* StoryDetailVC.xib */,
+			);
+			path = StoryDetail;
+			sourceTree = "<group>";
+		};
 		F9C0FC15F4611F3C886C13C5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DDCFE9591C03126B00222212 /* Reveal.framework */,
 				B5B7AC75850533398454D33B /* Pods_RingChat.framework */,
 			);
 			name = Frameworks;
@@ -372,6 +316,7 @@
 				DDBE3BFA1BF9ABD000AC3C99 /* LaunchScreen.storyboard in Resources */,
 				DD5A973D1BFDBC5100F8027C /* Assets.xcassets in Resources */,
 				DDBE3BF51BF9ABD000AC3C99 /* Main.storyboard in Resources */,
+				DDE817191C02E7A700CADF77 /* StoryDetailVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,21 +382,16 @@
 				DD5A97251BFDA4A300F8027C /* DGElasticPullToRefreshLoadingViewCircle.swift in Sources */,
 				DD78A0751BFC8354002615F8 /* StoryListCell.swift in Sources */,
 				DD5A97231BFDA4A300F8027C /* DGElasticPullToRefreshExtensions.swift in Sources */,
-				DD5A97371BFDB7B100F8027C /* RAMFumeAnimation.swift in Sources */,
 				DD78A0701BFC6EA9002615F8 /* GlobalDefinition.swift in Sources */,
-				DD5A97381BFDB7B100F8027C /* RAMRotationAnimation.swift in Sources */,
-				DD5A97391BFDB7B100F8027C /* RAMTransitionItemAnimation.swift in Sources */,
 				DDBE3C041BF9B32A00AC3C99 /* MainVC.swift in Sources */,
 				DD5A97241BFDA4A300F8027C /* DGElasticPullToRefreshLoadingView.swift in Sources */,
-				DD5A973A1BFDB7B100F8027C /* RAMAnimatedTabBarController.swift in Sources */,
 				DD5A97261BFDA4A300F8027C /* DGElasticPullToRefreshView.swift in Sources */,
 				DD47AF2F1BFD5C1D00EAC1ED /* NetworkKit.swift in Sources */,
 				DD5A97221BFDA4A300F8027C /* DGElasticPullToRefreshConstants.swift in Sources */,
 				DD02C1601BFAB83A0030AFBC /* BaseViewController.swift in Sources */,
 				DD47AF311BFD5CF900EAC1ED /* Reach.swift in Sources */,
-				DD5A97351BFDB7B100F8027C /* RAMBounceAnimation.swift in Sources */,
-				DD5A97361BFDB7B100F8027C /* RAMFrameItemAnimation.swift in Sources */,
-				DD5A973B1BFDB7B100F8027C /* RAMItemAnimationProtocol.swift in Sources */,
+				DDE8171B1C02E89E00CADF77 /* StoryModel.swift in Sources */,
+				DDE817181C02E7A700CADF77 /* StoryDetailVC.swift in Sources */,
 				DD78A0721BFC7294002615F8 /* ArticleListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -569,6 +509,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = RingChat/Info.plist;
@@ -587,6 +531,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = RingChat/Info.plist;

@@ -19,19 +19,6 @@ class ArticleListModel: NSObject {
     /**< 类型 */
     var type:NSNumber!
     
-    func initWithDictionary(dic:NSDictionary) ->ArticleListModel{
-        
-        if Utils.isValidDictionary(dic){
-            
-            id = dic.objectForKey("id") as! String
-            imageArray = dic.objectForKey("images") as? NSArray
-            title = dic.objectForKey("title") as! String
-            type = dic.objectForKey("id") as! NSNumber
-        }
-        
-        return self
-    }
-    
     internal init(dic:NSDictionary) {
         
         if Utils.isValidDictionary(dic){

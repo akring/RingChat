@@ -88,5 +88,4 @@ class Utils: NSObject {
         
         return notNill && isDictionaryType && notEmpty
     }
-    
 }
