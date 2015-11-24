@@ -88,4 +88,18 @@ class Utils: NSObject {
         
         return notNill && isDictionaryType && notEmpty
     }
+    /**
+     获取文件路径
+     
+     - parameter story: 文件名
+     
+     - returns: 文件路径
+     */
+    class func getFilePath(story:String)->String{
+        
+        let home = NSHomeDirectory() as NSString
+        let document = home.stringByAppendingPathComponent("Documents") as NSString
+        let path = document.stringByAppendingPathComponent(story)
+        return path
+    }
 }

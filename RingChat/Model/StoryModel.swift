@@ -59,61 +59,39 @@ class StoryModel: NSObject {
             body = dic.objectForKey("body") as! String
         }
         
-        if body != nil{
-            writeDataToDisk(.HTML, data: body, storyid: storyID, storyname: title)
-        }
-//        if jsSet != nil{
-//            let js = jsSet.firstObject as! String
-//            writeDataToDisk(.JS, data: js, storyid: storyID, storyname: title)
+//        if body != nil{
+//            writeDataToDisk(.HTML, data: body, storyid: storyID, storyname: title)
 //        }
-        if body != nil{
-            let cs = css.firstObject as! String
-            writeDataToDisk(.CSS, data: cs, storyid: storyID, storyname: title)
-        }
     }
     
-    func writeDataToDisk(type:DataType,data:String,storyid:String,storyname:String){
-        
-        switch type {
-        case .HTML:
-            let path = getFilePath(storyid+storyname+".html")//取得文件路径
-            do{
-                try data.writeToFile(path, atomically: true, encoding: NSUTF8StringEncoding)
-            }
-            catch{
-                print("HTML保存失败")
-            }
-            
-        case .JS:
-            let path = getFilePath(storyid+storyname+".js")//取得文件路径
-            do{
-                try data.writeToFile(path, atomically: true, encoding: NSUTF8StringEncoding)
-            }
-            catch{
-                print("JS保存失败")
-            }
-        case .CSS:
-            let path = getFilePath(storyid+storyname+".css")//取得文件路径
-            do{
-                try data.writeToFile(path, atomically: true, encoding: NSUTF8StringEncoding)
-            }
-            catch{
-                print("CSS保存失败")
-            }
-        }
-    }
-    /**
-     获取文件路径
-     
-     - parameter story: 文件名
-     
-     - returns: 文件路径
-     */
-    func getFilePath(story:String)->String{
-        
-        let home = NSHomeDirectory() as NSString
-        let document = home.stringByAppendingPathComponent("Documents") as NSString
-        let path = document.stringByAppendingPathComponent(story)
-        return path
-    }
+//    func writeDataToDisk(type:DataType,data:String,storyid:String,storyname:String){
+//        
+//        switch type {
+//        case .HTML:
+//            let path = Utils.getFilePath(storyid+storyname+".html")//取得文件路径
+//            do{
+//                try data.writeToFile(path, atomically: true, encoding: NSUTF8StringEncoding)
+//            }
+//            catch{
+//                print("HTML保存失败")
+//            }
+//            
+//        case .JS:
+//            let path = Utils.getFilePath(storyid+storyname+".js")//取得文件路径
+//            do{
+//                try data.writeToFile(path, atomically: true, encoding: NSUTF8StringEncoding)
+//            }
+//            catch{
+//                print("JS保存失败")
+//            }
+//        case .CSS:
+//            let path = Utils.getFilePath(storyid+storyname+".css")//取得文件路径
+//            do{
+//                try data.writeToFile(path, atomically: true, encoding: NSUTF8StringEncoding)
+//            }
+//            catch{
+//                print("CSS保存失败")
+//            }
+//        }
+//    }
 }

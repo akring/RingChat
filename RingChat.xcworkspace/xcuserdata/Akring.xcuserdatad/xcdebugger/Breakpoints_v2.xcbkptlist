@@ -20,11 +20,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RingChat/Controller/StoryDetail/StoryDetailVC.swift"
-            timestampString = "469965764.369474"
+            timestampString = "470026607.407"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "loadHtmlView()"
             landmarkType = "5">
          </BreakpointContent>
@@ -36,11 +36,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RingChat/Controller/StoryDetail/StoryDetailVC.swift"
-            timestampString = "469962515.548696"
+            timestampString = "470026607.407"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
             landmarkName = "requestData()"
             landmarkType = "5">
          </BreakpointContent>

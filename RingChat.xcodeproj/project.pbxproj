@@ -30,7 +30,7 @@
 		DDE817181C02E7A700CADF77 /* StoryDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE817161C02E7A700CADF77 /* StoryDetailVC.swift */; };
 		DDE817191C02E7A700CADF77 /* StoryDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE817171C02E7A700CADF77 /* StoryDetailVC.xib */; };
 		DDE8171B1C02E89E00CADF77 /* StoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8171A1C02E89E00CADF77 /* StoryModel.swift */; };
-		EE513F94E717D036DED495B8 /* Pods_RingChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B7AC75850533398454D33B /* Pods_RingChat.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EE513F94E717D036DED495B8 /* Pods_RingChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B7AC75850533398454D33B /* Pods_RingChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */

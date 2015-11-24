@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Toucan
 
 class StoryDetailVC: UIViewController,UIWebViewDelegate {
 
@@ -44,7 +45,11 @@ class StoryDetailVC: UIViewController,UIWebViewDelegate {
         
         storyIV = UIImageView(frame: CGRectMake(0, 0, CGRectGetWidth(self.webView.frame), 220))
         storyIV.contentMode = UIViewContentMode.ScaleToFill
-        self.storyIV.kf_setImageWithURL(NSURL(string: imageURL)!)
+        self.storyIV.kf_setImageWithURL(NSURL(string: imageURL)!, placeholderImage: nil, optionsInfo: nil) { (image, error, cacheType, imageURL) -> () in
+            
+            let resize = Toucan(image: self.storyIV.image!).resize(self.storyIV.frame.size, fitMode: Toucan.Resize.FitMode.Crop)
+            self.storyIV.image = resize.image
+        }
         self.webView.scrollView.addSubview(storyIV)
     }
 
