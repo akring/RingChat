@@ -9,7 +9,7 @@
 import UIKit
 import Toucan
 
-class StoryDetailVC: UIViewController,UIWebViewDelegate {
+class StoryDetailVC: BaseViewController,UIWebViewDelegate {
 
     var storyIV:UIImageView!
     
@@ -26,14 +26,20 @@ class StoryDetailVC: UIViewController,UIWebViewDelegate {
         requestData()
     }
     
-//    override func viewWillAppear(animated: Bool) {
-//        
-//        self.tabBarController?.tabBar.hidden = true
-//    }
-//    
-//    override func viewWillDisappear(animated: Bool) {
-//        self.tabBarController?.tabBar.hidden = false
-//    }
+    override func viewDidAppear(animated: Bool) {
+        
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        
+        self.navigationController?.navigationBarHidden = true
+        UIApplication.sharedApplication().setStatusBarHidden(true, withAnimation: UIStatusBarAnimation.Fade)
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        self.navigationController?.navigationBarHidden = false
+        UIApplication.sharedApplication().setStatusBarHidden(false, withAnimation: UIStatusBarAnimation.Fade)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -103,4 +109,11 @@ class StoryDetailVC: UIViewController,UIWebViewDelegate {
         
         return true
     }
+    
+    // MARK: - Navigation
+    @IBAction func back(){
+    
+        super.goBack()
+    }
+    
 }

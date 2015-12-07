@@ -8,17 +8,34 @@
 
 import UIKit
 
-class BaseViewController: UIViewController {
+class BaseViewController: UIViewController, UIGestureRecognizerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        createBackArrow()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    // MARK: - 创建返回按钮
+    
+    func createBackArrow(){
+        
+        let button = UIButton(frame: CGRectMake(0, 0, 17, 17))
+        button.setBackgroundImage(UIImage(named: "Navigation_Back"), forState: UIControlState.Normal)
+        button.addTarget(self, action: "goBack", forControlEvents: UIControlEvents.TouchUpInside)
+        
+        let item = UIBarButtonItem(customView: button)
+        self.navigationItem.leftBarButtonItem = item
+        self.navigationController?.interactivePopGestureRecognizer?.delegate = self
+    }
+    
+    func goBack(){
+        self.navigationController?.popViewControllerAnimated(true)
     }
     
     /*

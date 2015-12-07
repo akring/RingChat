@@ -20,13 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
-        Chameleon.setGlobalThemeUsingPrimaryColor(FlatMint(), withContentStyle: UIContentStyle.Contrast)
+        Chameleon.setGlobalThemeUsingPrimaryColor(FlatMint(), withSecondaryColor: ClearColor(), andContentStyle: UIContentStyle.Contrast)
         //圆角处理
         self.window?.layer.masksToBounds = true
         self.window?.layer.cornerRadius = 5.0
-        
-        
-        
         
         //获取版本号
         Utils.getVersion()

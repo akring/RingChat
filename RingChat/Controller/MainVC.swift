@@ -22,6 +22,9 @@ class MainVC: UIViewController ,UITableViewDataSource,UITableViewDelegate{
         
         self.title = "Today"
         
+        //隐藏导航栏下面的黑线
+        self.navigationController?.hidesNavigationBarHairline = true
+        
         initPullDownRefresh()
     }
     
@@ -33,7 +36,7 @@ class MainVC: UIViewController ,UITableViewDataSource,UITableViewDelegate{
     
     override func viewDidAppear(animated: Bool) {
         
-//        navigationController?.hidesBarsOnSwipe = true
+        navigationController?.hidesBarsOnSwipe = false
     }
     
     override func viewWillDisappear(animated: Bool) {
@@ -65,7 +68,7 @@ class MainVC: UIViewController ,UITableViewDataSource,UITableViewDelegate{
             self?.requestData()
             }, loadingView: loadingView)
         tableView.dg_setPullToRefreshBackgroundColor(UIColor.flatWhiteColor())
-        tableView.dg_setPullToRefreshFillColor(UIColor.flatMintColor())
+        tableView.dg_setPullToRefreshFillColor(UIColor(hex: "3CC6AA"))
     }
     
     // MARK: - 请求数据
