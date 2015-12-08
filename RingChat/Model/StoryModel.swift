@@ -7,91 +7,31 @@
 //
 
 import UIKit
+import ModelRocket
 
-enum DataType{
-    
-    case HTML,JS,CSS
-}
-
-class StoryModel: NSObject {
+class StoryModel: Model {
 
     /**< 主体内容 */
-    var body:String!
+    let body = Property<String>(key: "body")
     /**< 图片提供方 */
-    var imageSource:String?
+    let imageSource = Property<String>(key: "image_source")
     /**< 图片地址 */
-    var imageUrl:String!
+    let imageUrl = Property<String>(key: "image")
     /**< 标题 */
-    var title:String!
+    let title = Property<String>(key: "title")
     /**< 分享地址 */
-    var shareUrl:String!
+    let shareUrl = Property<String>(key: "share_url")
     /**< JS */
-    var jsSet:NSArray!
+    let jsSet = PropertyArray<String>(key: "js")
     /**< 分享者 */
-    var recommenders:NSArray!
+    //let recommenders = Property<String>(key: "js")
     /****************栏目块***************/
-    var sectionThumbnail:String!/**< 栏目缩略图 */
-    var sectionID:String!/**< 栏目ID */
-    var sectionName:String!/**< 栏目名称 */
+    //let sectionThumbnail = Property<String>(key: "title")/**< 栏目缩略图 */
+    //var sectionID:String!/**< 栏目ID */
+    //var sectionName:String!/**< 栏目名称 */
     
-    var type:NSNumber!/**< 类型 */
-    var storyID:String! /**< 文章ID */
-    var css:NSArray! /**< CSS */
+    let type = Property<NSNumber>(key: "type")/**< 类型 */
+    let storyID = Property<NSNumber>(key: "id")/**< 文章ID */
+    var css = PropertyArray<String>(key: "css")/**< CSS */
     
-    /****************外站引用的特殊文章 type=1***************/
-    var themeName:String!/**< 主题名称 */
-    var themeID:String! /**< 主题ID */
-    var editorName:String! /**< 编辑名称 */
-    
-    internal init(dic:NSDictionary) {
-        super.init()
-        if Utils.isValidDictionary(dic){
-            
-            title = dic.objectForKey("title") as! String
-            imageSource = dic.objectForKey("image_source") as? String
-            imageUrl = dic.objectForKey("image") as! String
-            shareUrl = dic.objectForKey("share_url") as! String
-            jsSet = dic.objectForKey("js") as? NSArray
-            type = dic.objectForKey("type") as! NSNumber
-            let tempID = dic.objectForKey("id") as! NSNumber
-            storyID = tempID.description
-            css = dic.objectForKey("css") as! NSArray
-            body = dic.objectForKey("body") as! String
-        }
-        
-//        if body != nil{
-//            writeDataToDisk(.HTML, data: body, storyid: storyID, storyname: title)
-//        }
-    }
-    
-//    func writeDataToDisk(type:DataType,data:String,storyid:String,storyname:String){
-//        
-//        switch type {
-//        case .HTML:
-//            let path = Utils.getFilePath(storyid+storyname+".html")//取得文件路径
-//            do{
-//                try data.writeToFile(path, atomically: true, encoding: NSUTF8StringEncoding)
-//            }
-//            catch{
-//                print("HTML保存失败")
-//            }
-//            
-//        case .JS:
-//            let path = Utils.getFilePath(storyid+storyname+".js")//取得文件路径
-//            do{
-//                try data.writeToFile(path, atomically: true, encoding: NSUTF8StringEncoding)
-//            }
-//            catch{
-//                print("JS保存失败")
-//            }
-//        case .CSS:
-//            let path = Utils.getFilePath(storyid+storyname+".css")//取得文件路径
-//            do{
-//                try data.writeToFile(path, atomically: true, encoding: NSUTF8StringEncoding)
-//            }
-//            catch{
-//                print("CSS保存失败")
-//            }
-//        }
-//    }
 }

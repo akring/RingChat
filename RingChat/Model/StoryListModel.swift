@@ -11,7 +11,7 @@ import ModelRocket
 
 class StoryListModel: Model {
 
-    let id = Property<String>(key: "id")
+    let id = Property<NSNumber>(key: "id")
     
     let imageArray = PropertyArray<String>(key:"images")
     

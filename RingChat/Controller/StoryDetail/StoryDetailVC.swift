@@ -8,12 +8,13 @@
 
 import UIKit
 import Toucan
+import ModelRocket
 
 class StoryDetailVC: BaseViewController,UIWebViewDelegate {
 
     var storyIV:UIImageView!
     
-    var model:ArticleListModel!
+    var model:StoryListModel!
     var dataModel:StoryModel!
     
     @IBOutlet var webView:UIWebView!
@@ -62,7 +63,7 @@ class StoryDetailVC: BaseViewController,UIWebViewDelegate {
     // MARK: - 请求数据
     func requestData(){
         
-        NetworkKit.request("news/"+model.id) { (response) -> Void in
+        NetworkKit.request("news/"+(model.id.value?.description)!) { (response) -> Void in
             
             if response.result.error != nil{
                 
@@ -71,9 +72,10 @@ class StoryDetailVC: BaseViewController,UIWebViewDelegate {
             else{
                 let result:AnyObject? = response.result.value
                 
-                let JSON = result as! NSDictionary
+                let object = result as! NSDictionary
                 
-                self.dataModel = StoryModel(dic: JSON)
+                let json = JSON(object)
+                self.dataModel = StoryModel(strictJSON: json)
                 self.loadHtmlView()
                 
             }
@@ -83,21 +85,21 @@ class StoryDetailVC: BaseViewController,UIWebViewDelegate {
     // MARK: - 加载HTML，JS和CSS
     func loadHtmlView(){
         
-        let temp = dataModel.css.firstObject as! String
+        let temp = dataModel.css.first!
         let css = NSURL(string: temp)
-        let htmlStr="<html><head><link rel='stylesheet' href='"+temp+"' /></head><body>"+dataModel.body+"</body></html>"
+        let htmlStr="<html><head><link rel='stylesheet' href='"+temp+"' /></head><body>"+dataModel.body.value!+"</body></html>"
         self.webView.loadHTMLString(htmlStr, baseURL: css)
     }
     
     // MARK: - WebView Delegate
     func webView(webView: UIWebView, shouldStartLoadWithRequest request: NSURLRequest, navigationType: UIWebViewNavigationType) -> Bool {
         
-        let temp = dataModel.css.firstObject as! String
+        let temp = dataModel.css.first!
         
         if request.URLString == temp{
             
             if self.storyIV == nil{
-                self.initImageView(self.dataModel.imageUrl)
+                self.initImageView(self.dataModel.imageUrl.value!)
             }
             else{
                 self.storyIV.hidden = false

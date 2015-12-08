@@ -20,7 +20,6 @@
 		DD78A0681BFC146B002615F8 /* LaunchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78A0661BFC146B002615F8 /* LaunchVC.swift */; };
 		DD78A06C1BFC630C002615F8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78A06B1BFC630C002615F8 /* Utils.swift */; };
 		DD78A0701BFC6EA9002615F8 /* GlobalDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78A06F1BFC6EA9002615F8 /* GlobalDefinition.swift */; };
-		DD78A0721BFC7294002615F8 /* ArticleListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78A0711BFC7294002615F8 /* ArticleListModel.swift */; };
 		DD78A0751BFC8354002615F8 /* StoryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78A0741BFC8354002615F8 /* StoryListCell.swift */; };
 		DD78D7051BFCD6C700C73A19 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78D7041BFCD6C700C73A19 /* CacheManager.swift */; };
 		DDBE3BEE1BF9ABD000AC3C99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE3BED1BF9ABD000AC3C99 /* AppDelegate.swift */; };
@@ -52,7 +51,6 @@
 		DD78A0661BFC146B002615F8 /* LaunchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchVC.swift; sourceTree = "<group>"; };
 		DD78A06B1BFC630C002615F8 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		DD78A06F1BFC6EA9002615F8 /* GlobalDefinition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalDefinition.swift; sourceTree = "<group>"; };
-		DD78A0711BFC7294002615F8 /* ArticleListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListModel.swift; sourceTree = "<group>"; };
 		DD78A0741BFC8354002615F8 /* StoryListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryListCell.swift; sourceTree = "<group>"; };
 		DD78D7041BFCD6C700C73A19 /* CacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		DDBE3BEA1BF9ABD000AC3C99 /* RingChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -214,7 +212,6 @@
 			isa = PBXGroup;
 			children = (
 				DDC389311C155EF100F8F520 /* StoryListModel.swift */,
-				DD78A0711BFC7294002615F8 /* ArticleListModel.swift */,
 				DDE8171A1C02E89E00CADF77 /* StoryModel.swift */,
 			);
 			path = Model;
@@ -408,7 +405,6 @@
 				DD47AF311BFD5CF900EAC1ED /* Reach.swift in Sources */,
 				DDE8171B1C02E89E00CADF77 /* StoryModel.swift in Sources */,
 				DDE817181C02E7A700CADF77 /* StoryDetailVC.swift in Sources */,
-				DD78A0721BFC7294002615F8 /* ArticleListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

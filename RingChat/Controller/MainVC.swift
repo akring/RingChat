@@ -8,6 +8,7 @@
 
 import UIKit
 import Alamofire
+import ModelRocket
 
 class MainVC: UIViewController ,UITableViewDataSource,UITableViewDelegate{
     
@@ -78,18 +79,19 @@ class MainVC: UIViewController ,UITableViewDataSource,UITableViewDelegate{
             
             let result:AnyObject? = response.result.value
             
-            let JSON = result as! NSDictionary
+            let obj = result as! NSDictionary
             
-            let storyArray = JSON.objectForKey("stories") as? NSArray
+            let storyArray = obj.objectForKey("stories") as? NSArray
             
             self.dataSource.removeAllObjects()
             
             for object in storyArray!{
                 
                 let dic = object as! NSDictionary
-                let model:ArticleListModel = ArticleListModel(dic: dic)
-                
-                self.dataSource.addObject(model)
+                //let model:ArticleListModel = ArticleListModel(dic: dic)
+                let json = JSON(dic)
+                let model = StoryListModel(strictJSON: json)
+                self.dataSource.addObject(model!)
             }
             
             self.tableView.dg_stopLoading()
@@ -106,7 +108,7 @@ class MainVC: UIViewController ,UITableViewDataSource,UITableViewDelegate{
         
         let cell = tableView.dequeueReusableCellWithIdentifier("StoryListCell", forIndexPath: indexPath) as! StoryListCell
         
-        let model = dataSource.objectAtIndex(indexPath.row) as! ArticleListModel
+        let model = dataSource.objectAtIndex(indexPath.row) as! StoryListModel
         
         cell.reloadCellWithModel(model)
         
@@ -124,7 +126,7 @@ class MainVC: UIViewController ,UITableViewDataSource,UITableViewDelegate{
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
         
         let vc = StoryDetailVC()
-        vc.model = dataSource.objectAtIndex(indexPath.row) as! ArticleListModel
+        vc.model = dataSource.objectAtIndex(indexPath.row) as! StoryListModel
         vc.hidesBottomBarWhenPushed = true
         self.navigationController?.pushViewController(vc, animated: true)
     }

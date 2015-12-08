@@ -33,13 +33,13 @@ class StoryListCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func reloadCellWithModel(model:ArticleListModel){
+    func reloadCellWithModel(model:StoryListModel){
         
-        let title = model.title
-        let imageURL = model.imageArray?.firstObject as! String
+        let title = model.title.value
+        let imageURL = model.imageArray.first
         
         titleLabel.text = title
-        iconIV.kf_setImageWithURL(NSURL(string: imageURL)!)
+        iconIV.kf_setImageWithURL(NSURL(string: imageURL!)!)
     }
 
 }
