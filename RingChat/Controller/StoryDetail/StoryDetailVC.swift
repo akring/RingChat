@@ -50,7 +50,7 @@ class StoryDetailVC: BaseViewController,UIWebViewDelegate {
     // MARK: - 初始化
     func initImageView(imageURL:String){
         
-        storyIV = UIImageView(frame: CGRectMake(0, 0, CGRectGetWidth(self.webView.frame), 220))
+        storyIV = UIImageView(frame: CGRectMake(0, 0, CGRectGetWidth(self.webView.frame), 215))
         storyIV.contentMode = UIViewContentMode.ScaleToFill
         self.storyIV.kf_setImageWithURL(NSURL(string: imageURL)!, placeholderImage: nil, optionsInfo: nil) { (image, error, cacheType, imageURL) -> () in
             
